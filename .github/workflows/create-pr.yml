@@ -4,7 +4,7 @@ on:
 
 jobs:
   create-pr:
-    uses: actions/versions-package-tools/.github/workflows/create-pr-to-update-manifest.yml@main
+    uses: dmitry-shibanov/versions-package-tools/.github/workflows/create-pr-to-update-manifest.yml@add-support-for-arm64
     with:
       tool-name: "go"
     secrets: inherit
