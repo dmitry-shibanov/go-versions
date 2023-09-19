@@ -4,7 +4,7 @@ on:
 
 jobs:
   create-pr:
-    uses: dmitry-shibanov/versions-package-tools/.github/workflows/build-tool-packages.yml@v-dmshib/add-hash-file
+    uses: dmitry-shibanov/versions-package-tools/.github/workflows/create-pr-to-update-manifest.yml@v-dmshib/add-hash-file
     with:
       tool-name: "go"
     secrets: inherit
