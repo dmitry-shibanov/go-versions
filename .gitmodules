@@ -1,4 +1,4 @@
 [submodule "helpers"]
 	path = helpers
-	url = https://github.com/actions/versions-package-tools
+	url = https://github.com/dmitry-shibanov/versions-package-tools
 	branch = main
